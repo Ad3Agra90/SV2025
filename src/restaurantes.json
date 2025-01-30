@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Porto do Camarão",
       "workingHours": {
-        "segunda": { "open": "10:00", "close": "22:00" },
-        "terça": { "open": "10:00", "close": "22:00" },
-        "quarta": { "open": "10:00", "close": "22:00" },
-        "quinta": { "open": "10:00", "close": "22:00" },
-        "sexta": { "open": "10:00", "close": "23:00" },
-        "sábado": { "open": "11:00", "close": "23:30" },
-        "domingo": { "open": "11:00", "close": "20:00" }
+        "segunda": { "open": "08:00", "close": "20:00" },
+        "terça": { "open": "08:00", "close": "22:00" },
+        "quarta": { "open": "08:00", "close": "22:00" },
+        "quinta": { "open": "08:00", "close": "22:00" },
+        "sexta": { "open": "08:00", "close": "22:00" },
+        "sábado": { "open": "08:00", "close": "22:00" },
+        "domingo": { "open": "08:00", "close": "22:00" }
       },
       "description": "Porto do Camarão é uma referência no mercado de peixes do Recife e conta com um restaurante onde produz pratos excepcionais com seus frutos do mar.",
       "address": "Av. 17 de Agosto, 248 - Parnamirim, Recife - PE, 52060-590",
@@ -25,6 +25,15 @@
     {
       "id": 2,
       "name": "Subway",
+      "workingHours": {
+        "segunda": { "open": "10:00", "close": "20:00" },
+        "terça": { "open": "10:00", "close": "22:00" },
+        "quarta": { "open": "10:00", "close": "22:00" },
+        "quinta": { "open": "10:00", "close": "22:30" },
+        "sexta": { "open": "10:00", "close": "22:30" },
+        "sábado": { "open": "10:00", "close": "22:30" },
+        "domingo": { "open": "12:00", "close": "22:30" }
+      },
       "description": "Rede de fast-food com opções saudáveis para montar sanduíches e saladas no balcão ao gosto do cliente.",
       "address": "R. Paula Batista, 657 - Casa Amarela, Recife - PE, 52070-070",
       "number": "+558130348446",
@@ -32,12 +41,21 @@
       "instaName": "@subwaybrasil",
       "imageUrl": "/assets/SUBWAY_LOGO.jpg",
       "banner": "https://fastly.4sqi.net/img/general/600x600/12337081_Y61RpgANN84rGvuWL2rsCxOzMKSPlCWrm_WiWq06T9s.jpg",
-      "desconto": null,
+      "desconto": "liberado",
       "rota": "https://www.google.com/maps/dir/-8.0291762,-34.9177504/Subway+-+R.+Paula+Batista,+657+-+Casa+Amarela,+Recife+-+PE,+52070-070/@-8.0287272,-34.9197775,17z/data=!3m1!4b1!4m18!1m7!3m6!1s0x7ab19af770058c9:0x7a87d2167851a417!2sSubway!8m2!3d-8.0282044!4d-34.9166547!16s%2Fg%2F11dx99140q!4m9!1m1!4e1!1m5!1m1!1s0x7ab19af770058c9:0x7a87d2167851a417!2m2!1d-34.9166547!2d-8.0282044!3e0?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
       "id": 3,
       "name": "Famiglia Lucco",
+      "workingHours": {
+        "segunda": { "open": "11:00", "close": "22:00" },
+        "terça": { "open": "11:00", "close": "22:00" },
+        "quarta": { "open": "11:00", "close": "22:00" },
+        "quinta": { "open": "11:00", "close": "23:00" },
+        "sexta": { "open": "11:00", "close": "23:00" },
+        "sábado": { "open": "11:00", "close": "23:00" },
+        "domingo": { "open": "11:00", "close": "23:00" }
+      },
       "description": "Pizzas fartas, aclamado mignon à parmegiana e petiscos, em ambiente descontraído com entrega em domicílio.",
       "address": "Estr. do Encanamento, 361 - Parnamirim, Recife - PE, 52060-210",
       "number": "+558134411914",
@@ -51,6 +69,15 @@
     {
       "id": 4,
       "name": "Recanto Paraíbano",
+      "workingHours": {
+        "segunda": { "open": "11:30", "close": "00:00" },
+        "terça": { "open": "11:30", "close": "00:00" },
+        "quarta": { "open": "11:30", "close": "00:00" },
+        "quinta": { "open": "11:30", "close": "00:00" },
+        "sexta": { "open": "11:30", "close": "01:00" },
+        "sábado": { "open": "11:30", "close": "01:00" },
+        "domingo": { "open": "11:30", "close": "23:00" }
+      },
       "description": "A gastronomia de especialidades nordestinas e contemporâneas em casa informal e climatizada para 400 pessoas.",
       "address": "Av. 17 de Agosto, 248 - Parnamirim, Recife - PE, 52060-590",
       "instagram": "https://www.instagram.com/recantopb?igsh=ZzA5eHlhNW1vY2Jn",
@@ -64,6 +91,15 @@
     {
       "id": 5,
       "name": "Arretado de Bom",
+      "workingHours": {
+        "segunda": { "open": "17:00", "close": "22:00" },
+        "terça": "Fechado",
+        "quarta": { "open": "17:00", "close": "22:00" },
+        "quinta": { "open": "17:00", "close": "22:00" },
+        "sexta": { "open": "17:00", "close": "22:00" },
+        "sábado": { "open": "08:00", "close": "22:00" },
+        "domingo": { "open": "08:00", "close": "22:00" }
+      },
       "description": "Culinária Regional de Qualidade, com um ambiente aconchegante e familiar para você e sua família.",
       "address": "R. Alfredo Fernandes, 186 - Casa Forte, Recife - PE, 52060-320",
       "instagram": "https://www.instagram.com/arretadodebomcasaforte?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -77,6 +113,15 @@
     {
       "id": 6,
       "name": "Entre Amigos O Bode",
+      "workingHours": {
+        "segunda": { "open": "11:00", "close": "01:00" },
+        "terça": { "open": "11:00", "close": "01:00" },
+        "quarta": { "open": "17:00", "close": "22:00" },
+        "quinta": { "open": "11:00", "close": "01:00" },
+        "sexta": { "open": "11:00", "close": "02:00" },
+        "sábado": { "open": "11:00", "close": "02:00" },
+        "domingo": { "open": "11:00", "close": "01:00" }
+      },
       "description": "Ambiente descontraído com mesas ao ar livre que serve a gastronomia apurada de pratos da casa e petiscos mistos.",
       "address": "R. da Hora, 695 - Espinheiro, Recife - PE, 52020-100",
       "instagram": "https://www.instagram.com/entreamigosobode?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -84,12 +129,28 @@
       "number": "+558133121000",
       "imageUrl": "/assets/entreamigos.png",
       "banner": "https://lh5.googleusercontent.com/p/AF1QipMSAdSdY_cUoeUOWMsOrG2zMB4BkvS7BO-p422I=w203-h135-k-no",
-      "desconto": null,
+      "desconto": "liberado",
       "rota": "https://www.google.com/maps/dir//Entre+Amigos+O+Bode+Espinheiro+-+R.+da+Hora,+695+-+Espinheiro,+Recife+-+PE,+52020-100/@-8.0472195,-34.8949147,11z/data=!4m9!4m8!1m0!1m5!1m1!1s0x7ab18eff1f89e89:0x42285dc43fc09104!2m2!1d-34.8946914!2d-8.0472122!3e0?entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         "id": 7,
         "name": "Modigliani Bistro",
+        "workingHours": {
+          "segunda": [ { "open": "11:30", "close": "16:00"},
+          {"open": "18:00", "close": "23:00"}],
+          "terça": [ { "open": "11:30", "close": "15:00"},
+          {"open": "18:00", "close": "23:00"}],
+          "quarta": [ { "open": "11:30", "close": "16:00"},
+          {"open": "18:00", "close": "23:00"}],
+          "quinta":[ { "open": "11:30", "close": "16:00"},
+          {"open": "18:00", "close": "23:00"}],
+          "sexta": [ { "open": "11:30", "close": "16:00"},
+          {"open": "18:00", "close": "00:00"}],
+          "sábado": [ { "open": "11:30", "close": "16:00"},
+          {"open": "18:00", "close": "00:00"}],
+          "domingo": [ { "open": "11:30", "close": "16:00"},
+          {"open": "18:00", "close": "22:00"}]
+        },
         "description": "Bistrô Franco Italiano, com pratos de qualidade e preços acessíveis, em ambiente descontraído.",
         "address": "R. dos Arcos, 31 - Poço da Panela, Recife - PE, 52061-180",
         "instagram": "https://www.instagram.com/modiglianibistro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -103,6 +164,22 @@
       {
         "id": 8,
         "name": "Restaurante Papacapim",
+        "workingHours": {
+          "segunda": [ { "open": "11:30", "close": "15:00"},
+          {"open": "17:30", "close": "23:00"}],
+          "terça": [ { "open": "11:30", "close": "15:00"},
+          {"open": "17:30", "close": "23:00"}],
+          "quarta": [ { "open": "11:30", "close": "15:00"},
+          {"open": "17:30", "close": "23:00"}],
+          "quinta":[ { "open": "11:30", "close": "15:00"},
+          {"open": "17:30", "close": "23:00"}],
+          "sexta": [ { "open": "11:30", "close": "15:00"},
+          {"open": "17:30", "close": "00:00"}],
+          "sábado": [ { "open": "11:30", "close": "15:00"},
+          {"open": "17:30", "close": "00:00"}],
+          "domingo": [ { "open": "11:30", "close": "15:00"},
+          {"open": "17:30", "close": "23:00"}]
+        },
         "description": "Cozinha variada regional no self service seleto com opções à la carte e pizzas especiais em ambiente elegante.",
         "address": "Av. Rui Barbosa, 1397 - Graças, Recife - PE, 52050-000",
         "instagram": "https://www.instagram.com/papacapimrestaurante?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -110,12 +187,21 @@
         "number": "+5581981485227",
         "imageUrl": "/assets/papacapim.png",
         "banner": "https://agendadorecife.com.br/wp-content/uploads/2022/09/papa-capim-restaurante-1.jpeg",
-        "desconto": null,
+        "desconto": "liberado",
         "rota": "https://www.google.com/maps/dir//Papa+Capim+-+Av.+Rui+Barbosa,+1397+-+Gra%C3%A7as,+Recife+-+PE,+52050-000/@-9.5751895,-100.2787428,3z/data=!4m9!4m8!1m0!1m5!1m1!1s0x7ab18fc415638f5:0x666600cf7d9b7178!2m2!1d-34.9037702!2d-8.041213!3e0?entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "id": 9,
         "name": "Shopping Plaza Casa Forte",
+        "workingHours": {
+        "segunda": { "open": "09:00", "close": "22:00" },
+        "terça": { "open": "09:00", "close": "22:00" },
+        "quarta": { "open": "09:00", "close": "22:00" },
+        "quinta": { "open": "09:00", "close": "22:00" },
+        "sexta": { "open": "09:00", "close": "22:00" },
+        "sábado": { "open": "09:00", "close": "22:00" },
+        "domingo": { "open": "12:00", "close": "21:00" }
+      },
         "description": "A praça de alimentação do Plaza Shopping Casa Forte oferece diversas opções gastronômicas e conta com Wi-Fi gratuito no Piso L5, garantindo conforto e conveniência para os clientes.",
         "address": "R. Dr. João Santos Filho, 255 - Parnamirim, Recife - PE, 52060-615",
         "instagram": "https://www.instagram.com/plazacasaforte?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -129,6 +215,18 @@
       {
         "id": 10,
         "name": "Udon Cozinha Oriental - Zona Norte",
+        "workingHours": {
+          "segunda": "Fechado",
+          "terça": { "open": "18:00", "close": "23:00"},
+          "quarta": { "open": "18:00", "close": "23:00"},
+          "quinta":{ "open": "18:00", "close": "23:00"},
+          "sexta": [ { "open": "12:00", "close": "15:00"},
+          {"open": "18:00", "close": "23:00"}],
+          "sábado": [ { "open": "12:00", "close": "15:00"},
+          {"open": "18:00", "close": "23:00"}],
+          "domingo": [ { "open": "12:00", "close": "15:00"},
+          {"open": "18:00", "close": "23:00"}]
+        },
         "description": "Restaurante japonês e chinês informal com opções vegetarianas e cervejas importadas em menu contemporâneo.",
         "address": "R. Raimundo Freixeiras, 175 - Casa Amarela, Recife - PE, 52070-020",
         "instagram": "https://www.instagram.com/udoncozinhaoriental?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -142,6 +240,17 @@
       {
         "id": 11,
         "name": "Nez Bistrô",
+        "workingHours": {
+          "segunda": { "open": "18:30", "close": "23:00"},
+          "terça": { "open": "18:30", "close": "23:00"},
+          "quarta": { "open": "18:30", "close": "23:00"},
+          "quinta": { "open": "18:30", "close": "23:00"},
+          "sexta": [ { "open": "12:00", "close": "16:00"},
+          {"open": "19:00", "close": "23:30"}],
+          "sábado": [ { "open": "12:00", "close": "16:00"},
+          {"open": "19:00", "close": "23:30"}],
+          "domingo": { "open": "12:00", "close": "16:00"}
+        },
         "description": "Pratos franceses e italianos em casa do século 17 com tijolos descascados, espelhos antigos e loja de vinhos.",
         "address": "Praça de Casa Forte, 314 - Casa Forte, Recife - PE, 52061-420",
         "instagram": "https://www.instagram.com/nezbistro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -155,6 +264,15 @@
       {
         "id": 12,
         "name": "Restaurante Parraxaxá - Casa Forte",
+        "workingHours": {
+          "segunda": { "open": "11:30", "close": "22:00"},
+          "terça": { "open": "11:30", "close": "22:00"},
+          "quarta": { "open": "11:30", "close": "22:00"},
+          "quinta": { "open": "11:30", "close": "22:00"},
+          "sexta": { "open": "11:30", "close": "22:00"},
+          "sábado": { "open": "11:30", "close": "22:00"},
+          "domingo": { "open": "07:00", "close": "22:00"}
+        },
         "description": "A cozinha do Nordeste, da carne de sol e do feijão verde, servida em ambiente com temas e música regional.",
         "address": "R. Igarassu, 40 - Casa Forte, Recife - PE, 52060-400",
         "instagram": "https://www.instagram.com/parraxaxa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -162,12 +280,21 @@
         "number": "+5581992513421",
         "imageUrl": "/assets/paraxaxa.jpg",
         "banner": "https://lh5.googleusercontent.com/p/AF1QipM88ihjjJhEtL5kjb5pHvMU8Z_rbGoZ-U-b3uDH=w203-h135-k-no",
-        "desconto": null,
+        "desconto": "liberado",
         "rota": "https://www.google.com/maps/dir//Restaurante+Parraxax%C3%A1+-+Casa+Forte+-+R.+Igarassu,+40+-+Casa+Forte,+Recife+-+PE,+52060-400/@-8.0382211,-34.9120409,12z/data=!3m1!5s0x7ab19012db1b67b:0x51c00422933c1631!4m9!4m8!1m0!1m5!1m1!1s0x7ab19012db68f37:0x19a5dffb88c37efa!2m2!1d-34.9118991!2d-8.0381683!3e0?entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "id": 13,
         "name": "Guaiamum Gigante",
+        "workingHours": {
+          "segunda": { "open": "17:00", "close": "00:00"},
+          "terça": { "open": "17:00", "close": "00:00"},
+          "quarta": { "open": "17:00", "close": "00:00"},
+          "quinta": { "open": "17:00", "close": "00:00"},
+          "sexta": { "open": "11:00", "close": "00:00"},
+          "sábado": { "open": "11:00", "close": "00:00"},
+          "domingo": { "open": "11:00", "close": "17:00"}
+        },
         "description": "Frutos do mar, caranguejos azuis, drinques e chope em um restaurante casual com área de recreação infantil.",
         "address": "R. Dr. José de Góes, 299 - Parnamirim, Recife - PE, 52060-380",
         "instagram": "https://www.instagram.com/guaiamumgigante?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -181,6 +308,22 @@
       {
         "id": 14,
         "name": "Bercy Parnamirim",
+        "workingHours": {
+          "segunda": [ { "open": "11:30", "close": "15:00"},
+          {"open": "18:00", "close": "22:30"}],
+          "terça": [ { "open": "11:30", "close": "15:00"},
+          {"open": "18:00", "close": "22:30"}],
+          "quarta": [ { "open": "11:30", "close": "15:00"},
+          {"open": "18:00", "close": "22:30"}],
+          "quinta": [ { "open": "11:30", "close": "15:00"},
+          {"open": "18:00", "close": "22:30"}],
+          "sexta": [ { "open": "11:30", "close": "15:00"},
+          {"open": "18:00", "close": "23:30"}],
+          "sábado": [ { "open": "11:30", "close": "15:00"},
+          {"open": "18:00", "close": "23:30"}],
+          "domingo": [ { "open": "11:30", "close": "15:00"},
+          {"open": "18:00", "close": "22:30"}]
+        },
         "description": "Creperia de entregas com menu de recheios variados, opção vegetariana e cozinha de pratos leves.",
         "address": "Estr. do Encanamento, 341 - Parnamirim, Recife - PE, 52060-210",
         "instagram": "https://www.instagram.com/bercyvillage?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -194,6 +337,15 @@
       {
         "id": 15,
         "name": "Pizzaria Atlântico Graças",
+        "workingHours": {
+          "segunda": { "open": "11:00", "close": "00:00"},
+          "terça": { "open": "11:00", "close": "00:00"},
+          "quarta": { "open": "11:00", "close": "00:00"},
+          "quinta": { "open": "11:00", "close": "00:00"},
+          "sexta": { "open": "11:00", "close": "00:00"},
+          "sábado": { "open": "11:00", "close": "00:00"},
+          "domingo": { "open": "11:00", "close": "00:00"}
+        },
         "description": "Cardápio variado de pizzas, além de massas e buffet, em ambiente contemporâneo e familiar com playground.",
         "address": "Av. Rui Barbosa, 500 - Graças, Recife - PE, 52011-040",
         "instagram": "https://www.instagram.com/pizzariaatlantico?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -201,12 +353,21 @@
         "number": "+558121011111",
         "imageUrl": "/assets/atlantico.jpg",
         "banner": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e1/0f/41/photo0jpg.jpg?w=900&h=500&s=1",
-        "desconto": null,
+        "desconto": "liberado",
         "rota": "https://www.google.com/maps/dir//Pizzaria+Atl%C3%A2ntico+Gra%C3%A7as+-+Av.+Rui+Barbosa,+500+-+Gra%C3%A7as,+Recife+-+PE,+52011-040/@-8.0406201,-34.9557956,13z/data=!3m1!5s0x7ab18e4ed9f66d1:0x578701c2ed65bb7a!4m9!4m8!1m0!1m5!1m1!1s0x7ab18e4ecfce119:0x13ad0b9d16d8e5a0!2m2!1d-34.899497!2d-8.0475288!3e0?entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "id": 16,
-        "name": "Quiosque Crepefy",
+        "name": "Quiosque Crepefy Shopping Tacaruna",
+        "workingHours": {
+          "segunda": { "open": "09:00", "close": "22:00"},
+          "terça": { "open": "09:00", "close": "22:00"},
+          "quarta": { "open": "09:00", "close": "22:00"},
+          "quinta": { "open": "09:00", "close": "22:00"},
+          "sexta": { "open": "09:00", "close": "22:00"},
+          "sábado": { "open": "09:00", "close": "22:00"},
+          "domingo": { "open": "12:00", "close": "21:00"}
+        },
         "description": "Crepes preparados com massa leve, crocante e ingredientes frescos. Escolha opções doces ou salgadas para qualquer ocasião.",
         "address": "Shopping Tacaruna - Av. Gov. Agamenon Magalhães, 153 - Santo Amaro, Recife - PE, 50110-900",
         "instagram": "https://www.instagram.com/crepefyoficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -214,12 +375,21 @@
         "number": "+5581981371783",
         "imageUrl": "/assets/crepefy.png",
         "banner": "https://www.shoppingtacaruna.com.br/files/store/17331602937298-sitenovofotoloja53.jpg",
-        "desconto": null,
+        "desconto": "liberado",
         "rota": "https://www.google.com/maps/dir//Shopping+Tacaruna+-+Av.+Gov.+Agamenon+Magalh%C3%A3es,+153+-+Santo+Amaro,+Recife+-+PE,+50110-900/@-8.1013395,-34.9698043,12z/data=!3m1!5s0x7ad035d1757debb:0xe67d3671dc29dc33!4m9!4m8!1m0!1m5!1m1!1s0x7ab187d739f1c8f:0x4a1723921993f55d!2m2!1d-34.8717367!2d-8.0380567!3e0?entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "id": 17,
         "name": "Insano's Hamburgueria",
+        "workingHours": {
+          "segunda": { "open": "17:00", "close": "00:00"},
+          "terça": { "open": "17:00", "close": "00:00"},
+          "quarta": { "open": "17:00", "close": "00:00"},
+          "quinta": { "open": "17:00", "close": "00:00"},
+          "sexta": { "open": "17:00", "close": "01:00"},
+          "sábado": { "open": "17:00", "close": "01:00"},
+          "domingo": { "open": "17:00", "close": "00:00"}
+        },
         "description": "Insanidade no preço e no sabor! Hambúrgueres artesanais, batatas fritas e bebidas geladas.",
         "address": "Av. Norte Miguel Arraes de Alencar, 6591 - Casa Amarela, Recife - PE, 52070-660",
         "instagram": "https://www.instagram.com/insanosrecife?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
@@ -229,6 +399,30 @@
         "banner": "/assets/insanos_banner.jpg",
         "desconto": null,
         "rota": "https://www.google.com/maps/dir//Insano's+Hamburgueria+-+Av.+Norte+-+Av.+Norte+Miguel+Arraes+de+Alencar,+6591+-+Casa+Amarela,+Recife+-+PE,+52070-660/@-8.0205808,-34.9240797,11z/data=!4m9!4m8!1m0!1m5!1m1!1s0x7ab19904ad4ced7:0xe9b27d1bd9d0ff02!2m2!1d-34.9240954!2d-8.0207129!3e0?entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "id": 18,
+        "name": "Forneiro Pizza Bar",
+        "workingHours": {
+          "segunda": { "open": "18:00", "close": "23:00"},
+          "terça": { "open": "18:00", "close": "23:00"},
+          "quarta": { "open": "18:00", "close": "23:00"},
+          "quinta": { "open": "18:00", "close": "23:00"},
+          "sexta": { "open": "18:00", "close": "00:00"},
+          "sábado": [ { "open": "12:00", "close": "16:00"},
+          {"open": "18:00", "close": "00:00"}],
+          "domingo": [ { "open": "12:00", "close": "16:00"},
+          {"open": "18:00", "close": "23:00"}]
+        },
+        "description": "Restaurante de carnes e vegetais na brasa, com hambúrgueres e massas seletas, em espaço convidativo intimista.",
+        "address": "Av. Dezessete de Agosto, 807 - Casa Forte, Recife - PE, 52060-435",
+        "instagram": "https://www.instagram.com/forneiropizzabar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+        "instaName": "@forneiropizzabar",
+        "number": "+5581988668813",
+        "imageUrl": "/assets/forneiro.png",
+        "banner": "https://media-cdn.tripadvisor.com/media/photo-s/11/7e/9d/c3/frente-do-bar-e-pizzaria.jpg",
+        "desconto": "liberado",
+        "rota": "https://www.google.com/maps/dir/-8.0292338,-34.9175824/Forneiro+Pizza+Bar+-+Av.+Dezessete+de+Agosto,+807+-+Casa+Forte,+Recife+-+PE,+52060-435/@-8.0336145,-34.9225315,16z/data=!3m1!4b1!4m18!1m7!3m6!1s0x7ab1906466af895:0xa7f703fd27cdb3bf!2sForneiro+Pizza+Bar!8m2!3d-8.0381161!4d-34.9159287!16s%2Fg%2F11f2wmfytn!4m9!1m1!4e1!1m5!1m1!1s0x7ab1906466af895:0xa7f703fd27cdb3bf!2m2!1d-34.9159287!2d-8.0381161!3e0?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D"
       }
     
   ]

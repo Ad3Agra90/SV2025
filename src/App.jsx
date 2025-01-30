@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import logo_zn from '../src/assets/img/logo_verbo.png'
-import zn from '../src/assets/img/ZN.png'
-import title from '../src/assets/img/title.png'
-import desconto_img from '../src/assets/img/desconto.png'
+import logo_zn from '../src/assets/logo_verbo.png'
+import zn from '../src/assets/ZN.png'
+import title from '../src/assets/title.png'
+import desconto_img from '../src/assets/desconto.png'
 import restaurantesData from '../src/restaurantes.json';
 
 export default function App() {
