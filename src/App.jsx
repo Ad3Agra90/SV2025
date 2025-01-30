@@ -9,7 +9,7 @@ export default function App() {
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
-    // Função para calcular milissegundos até o próximo minuto
+
     const calculateTimeToNextMinute = () => {
       const now = new Date();
       const seconds = now.getSeconds();
@@ -17,31 +17,31 @@ export default function App() {
       return (60 - seconds) * 1000 - milliseconds;
     };
 
-    // Atualiza precisamente no início de cada minuto
+
     const initialDelay = calculateTimeToNextMinute();
     
     const initialTimer = setTimeout(() => {
       setCurrentTime(new Date());
 
-      // Configura intervalo para atualizar a cada minuto exato
+
       const timer = setInterval(() => {
         setCurrentTime(new Date());
       }, 60000);
 
-      // Limpa o intervalo quando o componente é desmontado
+
       return () => {
         clearTimeout(initialTimer);
         clearInterval(timer);
       };
     }, initialDelay);
 
-    // Limpa os timers se o componente for desmontado
+
     return () => {
       clearTimeout(initialTimer);
     };
   }, []);
 
-  // Função para verificar se o restaurante está aberto
+
   const isRestaurantOpen = (workingHours) => {
     if (!workingHours) return false;
 
@@ -54,7 +54,17 @@ export default function App() {
     
     if (!daySchedule) return false;
 
-    return formattedTime >= daySchedule.open && formattedTime <= daySchedule.close;
+    if( typeof daySchedule.open == "undefined" ) {
+      for(let i=0; i<daySchedule.length; i++){
+          if( formattedTime >= daySchedule[i].open && formattedTime <= daySchedule[i].close){
+              return true;
+          }
+      }
+      return false;
+ } else {
+      return formattedTime >= daySchedule.open && formattedTime <= daySchedule.close;
+ }
+ 
   };
 
   return (
