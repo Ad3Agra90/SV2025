@@ -3,7 +3,7 @@ import logo_zn from '../src/assets/logo_verbo.png'
 import zn from '../src/assets/ZN.png'
 import title from '../src/assets/title.png'
 import desconto_img from '../src/assets/desconto.png'
-import restaurantesData from '../src/restaurantes.json';
+import restaurantesData from '../restaurantes.json';
 
 export default function App() {
   const [currentTime, setCurrentTime] = useState(new Date());
